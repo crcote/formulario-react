@@ -9,7 +9,7 @@ function Registro({error,setError,setErrorMail,errorMail,setErrorPassword,errorP
         <h2 style={{textAlign: "center"}}>Crea una cuenta</h2>
         <SocialButton />
         <p> O usa tu email para registrarte </p>
-        <Formulario />
+        <Formulario setError={setError} setErrorMail={setErrorMail} setErrorPassword={setErrorPassword} />
     </>
     )
 }
