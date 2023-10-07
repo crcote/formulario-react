@@ -2,9 +2,9 @@ import Registro from "./components/Registro"
 import { useState } from "react"
 function App() {
   
-  const [error, setError] = useState(false);
-  const [errorMail, setErrorMail] = useState(false);
-  const [errorPassword, setErrorPassword] = useState (false);
+  const [error, setError] = useState();
+  const [errorMail, setErrorMail] = useState();
+  const [errorPassword, setErrorPassword] = useState (); //Los estados se inicializan en undefined para que se evite mostrar el menaje de registro exitoso antes de que el formulario sea valido
   
   return (
     <>
