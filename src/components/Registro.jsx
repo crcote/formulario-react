@@ -12,7 +12,7 @@ function Registro({
 }) {
   return (
     <>
-      <h2 class="text-white" style={{ textAlign: "center" }}>
+      <h2 className="text-white" style={{ textAlign: "center" }}>
         Crea una cuenta
       </h2>
       <SocialButton
@@ -20,7 +20,7 @@ function Registro({
         segundoIcono="fa-github"
         tercerIcono="fa-instagram"
       />
-      <p class="d-flex justify-content-center text-white">
+      <p className="d-flex justify-content-center text-white">
         {" "}
         O usa tu email para registrarte{" "}
       </p>
